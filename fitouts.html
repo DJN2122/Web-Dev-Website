@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <meta charset="UTF-8">
+
+	<title>John's Workshop</title> 
+	
+	<!-- brings in the favicon -->
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.jpg">
+
+	<!-- brings in the css -->
+	<link rel="stylesheet" href="css/pagestyle.css" type="text/css">
+	<link rel="stylesheet" href="css/fitout.css" type="text/css">
+
+</head>
+
+<body>
+
+<!-- company logo -->
+<header><img id="headlogo" src="images/pagestyle/John'sWorkshopLogo.jpg"></header>
+
+<!-- the navbar -->
+<div id="navbar">					
+	<ul>
+		<li><a href="homepage.html">Home</a></li> <!-- change class this to active page-->
+		<li><div class="dropdown"><a href="stock.html">Stock<button class="dropbtn">
+			 </button>
+				<div class="dropdown-content">
+      				<a href="stock.html#Furniture">Furniture</a>
+      				<a href="stock.html#Lighting">Lighting</a>
+      				<a href="stock.html#Garden">Garden</a>
+    			</div></a></li>
+		<li class="active"><a href="fitouts.html">Fitouts</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+	</ul>
+</div>
+
+<div id="container">
+
+	<h2>Our Fitouts</h2>
+
+	<p>We pride ourselves in our fitout service. We have provided salvaged materials to a number of bars and restaurants around Ireland. See below some of our work and contact us for further information.</p>
+
+	<br>
+
+	<!-- clickable zoomable image 1-->
+	<div class="fitout">
+		<img id="myImg" alt="Davey Mac's" src="images/fitouts/daveymacs.jpg" style="width:100%;max-width:300px">
+
+		<div id="myModal" class="modal">
+  			<span class="close">&times;</span>
+  			<img class="modal-content" id="img01">
+  			<div id="caption"></div>
+		</div>
+
+		<h3>Davey Mac's, Waterford</h3>
+
+		<p>Waterford’s Newest Oldest Bar, Davey Macs is a Fantastic Hidden Gem in the Heart of Waterford City with a Fabulous & Unique Interior Décor. We installed a salvaged oak bar and dividers taken from an 18th century pub. This fitout was one of our most detailed and popular work to date. </p>
+	</div>
+
+	<br>
+
+	<!-- clickable zoomable image 2-->
+	<div class="fitout1">
+
+		<img id="myImg1" alt="La Pizzeria" src="images/fitouts/salvfitout3.jpg" style="width:100%;max-width:300px">
+
+		<div id="myModal1" class="modal">
+  			<span class="close1">&times;</span>
+  			<img class="modal-content" id="img02">
+  			<div id="caption1"></div>
+		</div>
+
+		<h3>Milano, Blanchardstown</h3>
+
+		<p>Milano, Blanchardstown has been serving Blanchardstown and surrounding areas since 2018. We were delighted to install a small wooden outdoor dining area which was constructed using salvaged oal, and 10cm x 30cm timber joists for roof structure providing shelter for customers dining outside.</p>
+
+		<p>This fitout was completed in the summer of 2019 and it took approximately 2 weeks to finish. 75% of the timber is recycled and reused from different projects. We always try our best to save and help the environment the best we can.</p>
+	</div>
+
+	<br>
+	
+	<div class="iframe-container">
+		<div class="left_cont">
+			<iframe id="vid" src="https://www.youtube.com/embed/zUG-9WEvtdw" ></iframe>
+		</div>
+		<div class="right_cont">
+			<h3 id="heading">Tutorial Of One Of Our Fitouts</h3>
+
+			<p>Please click on the youtube video to watch a quick tutorial of one of our bar fitouts.</p>
+		</div>
+		
+	</div>
+</div>
+
+<!-- footer -->	
+<footer>
+    <p>John's Workshop: Blanchardstown Road South, Blanchardstown, Dublin 15.</p>
+    <p>Telephone: (01) 812 9956</p>
+    <p>Opening hours: Monday-Saturday - 9am to 5pm</p>
+</footer>
+
+</body>
+
+<!-- brings in the JavaScript -->
+<script type="text/javascript" src="js/navbar.js"></script> 
+<script type="text/javascript" src="js/fitout.js"></script>  
+<script type="text/javascript" src="js/fitout01.js"></script>  
+
+</html>

@@ -1,0 +1,59 @@
+iframe {
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 20px;
+	width: 750px;
+	height: 400px;
+}
+
+form {
+	display: inline-block;
+	
+}
+
+fieldset { 
+	width: 700px; 
+	border: 1px solid #dcdcdc; 
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
+}
+
+legend {
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+
+label {
+	font-family: times new roman;
+	
+}
+
+select {
+	font-family: times new roman;
+	
+}
+
+textarea {
+	font-family: times new roman;
+	height: 100px;
+	width: 200px;
+	
+}
+
+#submitbtn {
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head> <meta charset="UTF-8">
+	<title>John's Workshop</title> 
+
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.jpg">
+
+	<link rel="stylesheet" href="css/pagestyle.css" type="text/css">
+	<link rel="stylesheet" href="css/contactus.css" type="text/css">
+</head>
+<body>
+
+<header><img id="headlogo" src="images/pagestyle/John'sWorkshopLogo.jpg"></header>
+
+<div id="navbar">					
+	<ul>
+		<li><a href="homepage.html">Home</a></li> <!-- change class this to active page-->
+		<li><div class="dropdown"><a href="stock.html">Stock<button class="dropbtn">
+			 </button>
+				<div class="dropdown-content">
+      				<a href="stock.html#Furniture">Furniture</a>
+      				<a href="stock.html#Lighting">Lighting</a>
+      				<a href="stock.html#Garden">Garden</a>
+    			</div></a></li>
+		<li><a href="fitouts.html">Fitouts</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li class="active"><a href="contactus.html">Contact Us</a></li>
+	</ul>
+</div>
+</div>
+
+<div id="container">
+
+<div id="content">
+
+<form name="myForm" action=" mailto:your email address here" onsubmit="return validateForm()"method="post">
+<fieldset> 
+
+<legend><h3>Get in Touch</h3></legend> 
+
+<p>
+We are here to answer any questions you might have about our services. Get in touch and John will respond to you within 24 hours. 
+</p>
+<p id="mandatory">Mandatory fields*</p>
+
+        <p>Prefix
+		  <input id="mr" type="radio" name="prefix" value="mr">
+		<label for="mr">Mr</label>
+		  <input id="mrs" type="radio" name="prefix" value="mrs">
+		<label for="mrs">Mrs</label>
+		  <input id="miss" type="radio" name="prefix" value="miss">
+		<label for="miss">Miss</label></br></p>
+		
+		<label>First Name*<br>
+          <input type="text" name="fname"/></label><br/>
+          <br>
+
+		
+        <label>Last Name*<br>
+          <input type="text" name="lastname"/></label><br/>
+          <br>
+
+		
+        <label>Email*<br>
+          <input type="text" name="email"/></label><br/>
+          <br>
+
+		
+        <label>Phone Number*<br>
+          <input type="text" name="phonenumber"/></label><br/>
+          <br>
+
+		
+        <label>Message<br>
+          <textarea name="message">Enter your message here</textarea>
+		 </label><br/>
+		 <br>
+		
+		 <label>How would you like us to contact you<br>
+		<select name="method">
+		  <option value="choose">Choose from dropdown</option>
+		  <option value="text">Text</option>
+		  <option value="phonecall">Phonecall</option>
+		  <option value="email">Email</option>
+		</select><br>
+		</label>
+		<br>
+		
+		  <label>How did you hear about John's Workshop<br>
+		<select name="medium">
+		  <option value="choose">Choose from dropdown</option>
+		  <option value="social media">Social media</option>
+		  <option value="from a friend">From a friend</option>
+		  <option value="newspaper">Newspaper advertisement</option>
+		  <option value="other">Other</option>
+		</select>
+		</label>
+		
+
+<p>Click submit when you have completed the form</p>
+<input type="submit" input value="submit" id="submitbtn">
+<br>
+
+</fieldset>
+</form>
+
+<h3>Our Storeroom</h3>
+<p>
+Visit our store in Blanchardstown Road South, Blanchardstown, Dublin 15.
+</p>
+<div id="googleMap"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.0743387865364!2d-6.395566184159678!3d53.3956100799893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486712ab2cafe3e7%3A0x1c56cc9cdee9338b!2sWoodie&#39;s%20Blanchardstown!5e0!3m2!1sen!2sie!4v1608309437590!5m2!1sen!2sie" ></iframe>
+
+
+
+
+</div>
+
+</div>
+<footer>
+                    <p>John's Workshop: Blanchardstown Road South, Blanchardstown, Dublin 15.</p>
+                    <p>Telephone: (01) 812 9956</p>
+                    <p>Opening hours: Monday-Saturday - 9am to 5pm</p>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="js/navbar.js"></script> 
+<script type="text/javascript" src="js/contactus.js"></script>
+
+</html>

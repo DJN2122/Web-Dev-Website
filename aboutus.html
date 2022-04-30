@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head> <meta charset="UTF-8">
+
+  <title>John's Workshop</title> 
+  
+  <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.jpg">
+
+  <link rel="stylesheet" href="css/pagestyle.css" type="text/css">
+  <link rel="stylesheet" href="css/aboutus.css" type="text/css">
+
+</head>
+
+<body>
+
+<header><img id="headlogo" src="images/pagestyle/John'sWorkshopLogo.jpg"></header>
+
+<div id="navbar">         
+  <ul>
+    <li><a href="homepage.html">Home</a></li> <!-- change class this to active page-->
+    <li><div class="dropdown"><a href="stock.html">Stock<button class="dropbtn">
+       </button>
+        <div class="dropdown-content">
+              <a href="stock.html#Furniture">Furniture</a>
+              <a href="stock.html#Lighting">Lighting</a>
+              <a href="stock.html#Garden">Garden</a>
+          </div></a></li>
+    <li><a href="fitouts.html">Fitouts</a></li>
+    <li class="active"><a href="aboutus.html">About Us</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+</div>
+<div id="container">
+
+<div id="content">
+
+<h2>About Us</h2>
+	<p>John's Workshop was founded by John in 2018. It is located in Blanchardstown, a suburban area in Dublin 15, 20km from Dublin city centre. We supply Salvage and Architectural Reclamation, though we specialise in Reclaimed Timber Beams,Timber & Tile Flooring, Belfast Sinks, Bricks, Slates and Sleepers. John has a lot of experience in areas like carpentry, engineering and architecture.</p>
+<p>We have supplied many Bars and Restaurants with our products including all across Ireland who will testify to our quality and price</p>
+<p>Please do not hesitate to contact us if you have any questions.</p>
+<p>John</p>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="slidenum">1 / 3</div>
+    <img src="images/aboutus/blanchardstown1.jpg" class="aboutusimg">
+    <div class="caption">Blanchardstown Village</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="slidenum">2 / 3</div>
+    <img src="images/aboutus/blanchardstown2.jpg" class="aboutusimg">
+    <div class="caption">Blanchardstown Centre</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="slidenum">3 / 3</div>
+    <img src="images/aboutus/workshop.jpg" class="aboutusimg">
+    <div class="caption">Our Workshop</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</div>
+</div>
+<footer>
+       <p>John's Workshop: Blanchardstown Road South, Blanchardstown, Dublin 15.</p>
+       <p>Telephone: (01) 812 9956</p>
+       <p>Opening hours: Monday-Saturday - 9am to 5pm</p>
+</footer>
+
+</body>
+
+<script type="text/javascript" src="js/navbar.js"></script> 
+<script type="text/javascript" src="js/aboutus.js"></script>
+
+</html>

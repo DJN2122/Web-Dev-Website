@@ -1,0 +1,95 @@
+
+/*This css taken from W3 Schools and amended to suit site*/
+/* Slideshow container */
+.slideshow-containerHome {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  margin: auto 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*positions the image within the container*/
+.homeImg {
+  position: relative;
+  width: 100%;
+  height: 850px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 100px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-family: times new roman;
+}
+
+/* Caption text (different position) */
+.text2 {
+  color: #f2f2f2;
+  font-size: 100px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  text-align: center;
+  font-family: times new roman;
+}
+
+/*changes colour when active*/
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+/*resize css based on screen size*/
+@media (max-width: 767px) {
+
+  .homeImg {
+   height: 450px;
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 12px 12px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    font-family: times new roman;
+  }
+
+  .text2 {
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 12px 12px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    text-align: center;
+    font-family: times new roman;
+  }
+}

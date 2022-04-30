@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <meta charset="UTF-8">
+
+	<title>John's Workshop</title> 
+	
+	<!-- brings in the favicon -->
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.jpg">
+
+	<!-- brings in the css -->
+	<link rel="stylesheet" href="css/pagestyle.css" type="text/css">
+	<link rel="stylesheet" href="css/homeslide.css" type="text/css">
+
+</head>
+
+<body>
+
+<!-- company logo -->
+<header><img id="headlogo" src="images/pagestyle/John'sWorkshopLogo.jpg"></header>
+
+<!-- the navbar -->
+<div id="navbar">					
+	<ul>
+		<li class="active"><a href="">Home</a></li> <!-- change class this to active page-->
+		<li><div class="dropdown"><a href="stock.html">Stock<button class="dropbtn">
+			 </button>
+				<div class="dropdown-content">
+      				<a href="stock.html#Furniture">Furniture</a>
+      				<a href="stock.html#Lighting">Lighting</a>
+      				<a href="stock.html#Garden">Garden</a>
+    			</div></a></li>
+		<li><a href="fitouts.html">Fitouts</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+	</ul>
+</div>
+
+<!-- homepage automatic slideshow -->
+<div class="slideshow-containerHome">
+
+<div class="mySlides fade">
+  <img class="homeImg" src="images/homepage/barhome.jpg">
+  <div class="text2">Bar & Restaurant Fitouts</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="homeImg" src="images/homepage/salvwheel.jpg">
+  <div class="text">Salvaged Items</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="homeImg" src="images/homepage/salv.jpg">
+  <div class="text2">John's Workshop</div>
+</div>
+
+</div>
+
+<!-- footer -->
+<footer>
+    <p>John's Workshop: Blanchardstown Road South, Blanchardstown, Dublin 15.</p>
+    <p>Telephone: (01) 812 9956</p>
+    <p>Opening hours: Monday-Saturday - 9am to 5pm</p>
+</footer>
+
+</body>
+
+<!-- brings in the JavaScript -->
+<script type="text/javascript" src="js/navbar.js"></script>
+<script type="text/javascript" src="js/homeslide.js"></script> 
+
+</html>
